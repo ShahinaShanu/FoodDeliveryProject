@@ -16,8 +16,8 @@ git push origin master               //make completly changes that u have made a
 when you updated and create any file or folder then you have to do in git bash:
 
 git status                      //see status when gets changes to your project.
-git add.                        // add your changes
-git commit -m "added <file_name>" //commit it to your gitrepository.
+git add .                        // add your changes
+git commit -m "added <file_name>" //commit it to your git-repository.
 git push origin master            // update it to your github account.
 
 
