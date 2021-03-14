@@ -1,3 +1,2 @@
 # FoodDeliveryProject
-This is my responsive website for food delivery project.
-Please contribute to my open source project.
+###This is my responsive website template for food delivery project.
