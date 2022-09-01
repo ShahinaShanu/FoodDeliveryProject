@@ -10,6 +10,9 @@ git status (optional)           // just to see status
 ssh-keygen -t rsa -b 4096 -C "sheikhshahina9@gmail.com"  //to generate SSH key to push your commit beause of private repository
 cat <path to id_rsa.pub>        // Add this key to your github account.
 git remote add origin <ssh url.git>  //put your projet git repository on github link.
+or  git remote add origin git@github.com:ShahinaShanu/BookListRajor.git  //:username/RepoName
+or git remote set-url origin https://github.com/shahinaShanu/BookListRajor.git
+
 git push origin master               //make completly changes that u have made and ready your project to see on github.
 
 
@@ -23,5 +26,11 @@ git push origin master            // update it to your github account.
 
 SSH key: koi bhi repository bnana Chahe to hmare Computer se push hojaye isliy ssh key generate krte hai.
 
+If you have a local clone, you can update it by running the following commands.
 
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
 
+C:\Users\Empower\.ssh>type id_rsa.pub   Look in cmd for Ssh Key
